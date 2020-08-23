@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="Docker.DotNet" Version="3.125.4" />
+      <PackageReference Include="xunit" Version="2.4.0" />
+      <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.5.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <Company>Jason Wadsworth</Company>
+    <PackageDescription>DynamoDB Test Utilities</PackageDescription>
+    <RepositoryUrl>https://github.com/jasonwadsworth/DotNet.DynamoDB.TestUtilities</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
